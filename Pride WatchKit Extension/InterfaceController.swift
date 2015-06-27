@@ -12,10 +12,15 @@ import Foundation
 
 class InterfaceController: WKInterfaceController {
 
+    @IBOutlet var image: WKInterfaceImage!
+    @IBOutlet var label: WKInterfaceLabel!
+    
     override func awakeWithContext(context: AnyObject?) {
         super.awakeWithContext(context)
         
         // Configure interface objects here.
+        label.setText("Marriage Equality")
+        image.setImageNamed("gay_pride_rainbow")
     }
 
     override func willActivate() {
