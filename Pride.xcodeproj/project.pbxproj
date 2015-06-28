@@ -240,12 +240,15 @@
 				TargetAttributes = {
 					30CA60BD1B3E8EA100A19A2B = {
 						CreatedOnToolsVersion = 7.0;
+						DevelopmentTeam = 8B5EFZ2UMB;
 					};
 					30CA60CF1B3E8EA100A19A2B = {
 						CreatedOnToolsVersion = 7.0;
+						DevelopmentTeam = 8B5EFZ2UMB;
 					};
 					30CA60DE1B3E8EA100A19A2B = {
 						CreatedOnToolsVersion = 7.0;
+						DevelopmentTeam = 8B5EFZ2UMB;
 					};
 				};
 			};
@@ -381,7 +384,8 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Sihao Lu (XM88LLH3QU)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Sihao Lu (XM88LLH3QU)";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -425,7 +429,8 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
@@ -449,6 +454,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Sihao Lu (XM88LLH3QU)";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "iPhone Developer";
 				INFOPLIST_FILE = "Pride WatchKit Extension/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
@@ -465,6 +471,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Sihao Lu (XM88LLH3QU)";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "iPhone Developer";
 				INFOPLIST_FILE = "Pride WatchKit Extension/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
@@ -481,7 +488,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Sihao Lu (XM88LLH3QU)";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "iPhone Developer: Sihao Lu (XM88LLH3QU)";
 				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				IBSC_MODULE = Pride_WatchKit_Extension;
 				INFOPLIST_FILE = "Pride WatchKit App/Info.plist";
@@ -498,7 +506,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Sihao Lu (XM88LLH3QU)";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "iPhone Developer: Sihao Lu (XM88LLH3QU)";
 				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				IBSC_MODULE = Pride_WatchKit_Extension;
 				INFOPLIST_FILE = "Pride WatchKit App/Info.plist";
@@ -515,6 +524,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Sihao Lu (XM88LLH3QU)";
 				INFOPLIST_FILE = Pride/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = edu.jhu.djben.Pride;
@@ -526,6 +536,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Sihao Lu (XM88LLH3QU)";
 				INFOPLIST_FILE = Pride/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = edu.jhu.djben.Pride;
@@ -552,6 +563,7 @@
 				30CA60F71B3E8EA100A19A2B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		30CA60F91B3E8EA100A19A2B /* Build configuration list for PBXNativeTarget "Pride WatchKit App" */ = {
 			isa = XCConfigurationList;
@@ -560,6 +572,7 @@
 				30CA60FB1B3E8EA100A19A2B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		30CA60FD1B3E8EA100A19A2B /* Build configuration list for PBXNativeTarget "Pride" */ = {
 			isa = XCConfigurationList;
@@ -568,6 +581,7 @@
 				30CA60FF1B3E8EA100A19A2B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
